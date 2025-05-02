@@ -1,0 +1,35 @@
+#----- Sample file
+sample_tsv: "sample_fastq_list_paired.txt"
+
+#----- Software paths
+java_path: "/usr/bin/java"
+parallel_path: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/misc/sullivan/tools/parallel/parallel-20210822/bin/parallel"
+cutadapt_path: "cutadapt"
+bwa_path: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/misc/shared-software/tools/bwa/bwa-0.7.17/bwa"
+bcftools_path: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/misc/sullivan/tools/bcftools/bcftools/bcftools"
+bedtools_path: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/misc/shared-software/tools/bedtools/bedtools-2.29.1/bin/converageBed"
+picard_path: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/misc/shared-software/tools/picard/picard.jar"
+freebayes_path: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/misc/sullivan/tools/freebayes/freebayes-1.3.4-linux-static-AMD64"
+generate_fasta: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/misc/sullivan/tools/freebayes/freebayes/scripts/fastq_generate_regions.py"
+samtools_path: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/misc/sullivan/tools/samtools/samtools-1.11/samtools"
+snpeff_path: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/misc/sullivan/tools/snpeff/snpEff/snpEff.jar"
+vcf2maf_path: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/misc/shared-software/tools/vcf2maf/mskcc-vcf2maf-f6d0c40/vcf2maf.pl"
+
+#----- Adapter sequences
+adapterF: "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA"
+adapterR: "AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT"
+
+#----- BWA and Picard parameters
+reference: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/genomic_references/mouse/UCSC_mm10/mm10"
+reference_fa: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/genomic_references/mouse/UCSC_mm10/mm10.fa"
+reference_index: "/dartfs-hpc/rc/lab/G/GMBSR_bioinfo/genomic_references/mouse/UCSC_mm10/mm10.fa.fai"
+targets: "Twist_Mouse_Exome_Target_Rev1_7APR20.bed"
+intervals: "mm10.interval_list"
+
+#----- VCF Annotation params
+#snpeff_config: ""
+snpeff_genome: "mm10"
+vcf2maf: /dartfs-hpc/rc/lab/G/GMBSR_bioinfo/misc/shared-software/tools/vcf2maf/mskcc-vcf2maf-f6d0c40/vcf2maf.pl
+
+
+
