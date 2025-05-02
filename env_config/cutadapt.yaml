@@ -1,0 +1,9 @@
+name: cutadapt
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - nomkl
+  - python=3.10
+  - cutadapt==4.6

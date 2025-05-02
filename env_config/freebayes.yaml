@@ -1,0 +1,8 @@
+name: freebayes
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - nomkl
+  - freebayes-1.3.4

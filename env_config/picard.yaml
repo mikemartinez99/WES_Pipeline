@@ -1,0 +1,9 @@
+name: picard
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - nomkl
+  - bedtools==2.29.1
+  - picard-slim==2.27.1
