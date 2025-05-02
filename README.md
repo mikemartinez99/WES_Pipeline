@@ -1,6 +1,7 @@
 # WES-pipeline
+**Pipeline for targetted whole exome sequencing / variant analysis**
 
-# Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 - [Pipeline](#pipeline)
 - [Prerequisities](#prerequisites)
