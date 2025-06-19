@@ -1,4 +1,8 @@
 # WES-pipeline
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![Snakemake](https://img.shields.io/badge/Snakemake-v7.18.0-red?logo=snakemake&logoColor=white)
+![Python Version](https://img.shields.io/badge/python-3.8.5-blue)
+
 **Pipeline for targetted whole exome sequencing / variant analysis**
 
 ## Table of Contents
